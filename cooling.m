@@ -6,7 +6,7 @@ cp = 896;
 eps = 0.825; 
 A_s = 0.035;
 sigma = 5.670367e-8;          % W/m2K4
-TE = 191; % Ambient temperature in Kelvin
+TE = 191.33; % Ambient temperature in Kelvin
 tau = (m*cp)/(4*eps*sigma*A_s*TE^3); % cooling constant
 %tau = 3.95e4;
 
